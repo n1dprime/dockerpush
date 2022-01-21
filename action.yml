@@ -1,4 +1,4 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
-runs: echo "Hello test1 .push"
+run: echo "Hello test1 .push"
   
