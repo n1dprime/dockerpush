@@ -14,7 +14,5 @@ runs:
   steps:
     - run: echo Hello ${{ inputs.who-to-greet }}.
       shell: bash
-  args:
-    - ${{ inputs.who-to-greet }}
-  
+
 
