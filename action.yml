@@ -11,9 +11,10 @@ outputs:
     value: ${{ steps.random-number-generator.outputs.random-id }}
 runs:
   using: "composite"
-  args:
-    - ${{ inputs.who-to-greet }}
   steps:
     - run: echo Hello ${{ inputs.who-to-greet }}.
       shell: bash
+  args:
+    - ${{ inputs.who-to-greet }}
+  
 
